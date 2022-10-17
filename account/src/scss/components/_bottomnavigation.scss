@@ -60,12 +60,14 @@
   }
 
   @media screen and (max-width: 767px) {
+    background-color: lightblue;
     a {
-        margin: 14px 10px;
+      margin: 14px 10px;
+
       i {
         width: 44px;
         height: 44px;
-        font-size: 15px;
+        font-size: 16px;
       }
     }
 

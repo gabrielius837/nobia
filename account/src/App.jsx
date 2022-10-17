@@ -7,7 +7,6 @@ import Payment from "./pages/Payment";
 import History from "./pages/History";
 
 // import components
-import SideNavigation from "./components/navigation/SideNavigation";
 import BottomNavigation from "./components/navigation/BottomNavigation";
 import ContextProvider from "./data/ContextProvider";
 
@@ -39,7 +38,6 @@ function App() {
         <div className="app">
           <div className="grid">
             <div className="grid__inner">
-              <SideNavigation />
               <Routes>
                 <Route path="/" element={<AccountOverviewPage />} />
                 <Route path="/details" element={<AccountDetailsPage />} />
